@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Hello, world!</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+ 
+  <script>
+  // Your web app's Firebase configuration
+     var firebaseConfig = {
+     apiKey: "AIzaSyAgTiPrbMBLZ-iyU-gA_9a5N96yLvuUkkQ",
+     authDomain: "chat-javascript-firebase.firebaseapp.com",
+     projectId: "chat-javascript-firebase",
+     storageBucket: "chat-javascript-firebase.appspot.com",
+     messagingSenderId: "509429936746",
+     appId: "1:509429936746:web:a191b469f2a8254d691013"
+  };
+  // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  </head>
+  <body>
+    <div class="container">
+        <nav id="barrita" class="navbar navbar-lightcoral bg-lightcoral container">
+            <span class="navbar-brand" id="nombreUsuario">Chat</span>
+            <div id="botones"></div>
+        </nav>
+
+        <main id="contenidoProtegido" class="mt-3" style="height: 75vh; overflow-y: scroll;"></main>
+
+        <form id="formulario">
+            <input type="text" class="form-control" placeholder="Enviar mensaje" id="inputChat">
+            <div class="input-group-append">
+                <button id="botonsito" class="btn  bg-gradient" type="submit">Enviar</button>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

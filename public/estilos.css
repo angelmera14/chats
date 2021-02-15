@@ -1,0 +1,47 @@
+#contenidoProtegido{
+    /*background: url(https://esports.as.com/2020/01/10/league-of-legends/mejores-fondos-pantalla-cinematica-Warriors_1317478247_322367_1024x576.png);*/
+    background: url(https://fondosmil.com/fondo/22162.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+#textoxd{
+    color:white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+#btnAcceder{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(58, 58, 58);;
+    font-weight: bolder;
+}
+#btnAcceder:hover{
+    background-color: grey;
+}
+#barrita{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+#botonsito{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+#botonsito:hover{
+    background-color:   rgb(255, 0, 0);
+}
+.badge{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+}
